@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/ddesonier/AOAI_ChatGpt_0.28.git .
+RUN git clone https://github.com/ddesonier/chatgpt_demos.git .
 
 
 RUN pip install -r requirements.txt
